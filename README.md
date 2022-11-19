@@ -1,6 +1,6 @@
 # ShopDiscountRU
 
-Proje, Discount isimli bir adet Post methoda sahip bir Web API projesidir.
+Proje, Discount isimli bir adet Post methoda sahip bir Web API projesidir. Aşağıdaki yapıda beir json bekler. Müşteri tipine ve ürün çeşidine göre ürünlere ve toplam fiyata indirim uygular.
 
 ## json input
 
@@ -19,9 +19,6 @@ Proje, Discount isimli bir adet Post methoda sahip bir Web API projesidir.
 }
 
 ##
-
-Müşteri tipine ve ürün çeşidine göre ürünlere ve toplam fiyata indirim uygular.
-##
 The following discounts apply:
 1. If the user is an employee of the store, he gets a 30% discount
 2. If the user is an affiliate of the store, he gets a 10% discount
@@ -39,4 +36,4 @@ IProduct interfacinden türetilmiş 2 farklı Product sınıfı var ve her biri 
 Invoice sınıfı ICustor ve List<IProduct> nesnelerini barındırıyor ve Calculate isimli metod IUser.Calculate methodunu çağırıyor.
 
 ##
-Testleri yapılmıştır.
+Unit test uygulanmıştır.
