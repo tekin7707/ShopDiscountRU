@@ -17,19 +17,16 @@ namespace ShopsRUs.UnitTest.TestProject
                     new ProductDto
                     {
                         IsGrocery = true,
-                        Name = "Grocery 1",
                         Price = 100
                     },
                     new ProductDto
                     {
                         IsGrocery = false,
-                        Name = "Meta 1",
                         Price = 60
                     },
                     new ProductDto
                     {
                         IsGrocery = false,
-                        Name = "Meta 2",
                         Price = 40
                     }
             }, 190 };
@@ -39,7 +36,6 @@ namespace ShopsRUs.UnitTest.TestProject
                     new ProductDto
                     {
                         IsGrocery = true,
-                        Name = "Grocery 2",
                         Price = 50
                     }
             }, 50 };
@@ -49,13 +45,11 @@ namespace ShopsRUs.UnitTest.TestProject
                     new ProductDto
                     {
                         IsGrocery = true,
-                        Name = "Grocery 2",
                         Price = 50
                     },
                     new ProductDto
                     {
                         IsGrocery = false,
-                        Name = "Meta 1",
                         Price = 60
                     }
             }, 102 }; 

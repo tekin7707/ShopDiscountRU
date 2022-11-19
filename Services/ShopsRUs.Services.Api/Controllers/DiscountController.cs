@@ -21,9 +21,8 @@ namespace ShopsRUs.Services.Api.Controllers
         [HttpPost]
         public string GetAsync(InvoiceDto invoice)
         {
-
-            _discountService.Calculate(invoice);
-            return "";
+            double calculatedAmount = _discountService.Calculate(invoice);
+            return calculatedAmount.ToString(",##0.00");
         }
     }
 }

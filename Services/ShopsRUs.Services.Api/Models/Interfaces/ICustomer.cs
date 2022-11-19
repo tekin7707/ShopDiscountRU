@@ -1,5 +1,4 @@
-﻿using ShopsRUs.Services.Api.Models.Enums;
-
+﻿
 namespace ShopsRUs.Services.Api.Models.Interfaces
 {
     public interface ICustomer
