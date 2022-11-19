@@ -12,7 +12,7 @@ namespace ShopsRUs.UnitTest.TestProject
     {
         public IEnumerator<object[]> GetEnumerator()
         {
-            //100+((60+40)*%25)=>175-5=170
+            //100+((60+40)*%30)=>170-5=165
             yield return new object[] { new CustomerDto { IsEmployee = true }, new List<ProductDto> {
                     new ProductDto
                     {
@@ -29,7 +29,7 @@ namespace ShopsRUs.UnitTest.TestProject
                         IsGrocery = false,
                         Price = 40
                     }
-            }, 170 };
+            }, 165 };
 
             //50
             yield return new object[] { new CustomerDto { IsEmployee = true }, new List<ProductDto> {
@@ -40,7 +40,7 @@ namespace ShopsRUs.UnitTest.TestProject
                     }
             }, 50 };
 
-            // 50+(60*%25)=>50+45=>95
+            // 50+(60*%30)=>50+42=>92
             yield return new object[] { new CustomerDto { IsEmployee = true }, new List<ProductDto> {
                     new ProductDto
                     {
@@ -52,7 +52,7 @@ namespace ShopsRUs.UnitTest.TestProject
                         IsGrocery = false,
                         Price = 60
                     }
-            }, 95 };
+            }, 92 };
 
         }
 
