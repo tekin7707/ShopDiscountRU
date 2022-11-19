@@ -11,6 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopsRUs.UnitTest.TestProje
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{5D001B0D-9270-46E1-8CBC-66F6863C67EC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Uml", "Uml", "{1C75655A-694C-40B6-A913-C44ADBA131B9}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\tekin\OneDrive\Pictures\uml-shop.png = C:\Users\tekin\OneDrive\Pictures\uml-shop.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
